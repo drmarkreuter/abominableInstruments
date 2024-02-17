@@ -12,3 +12,6 @@
 
 ## Playground Tubular Bells
 #### Made from a tubular bell toy found in a playground in the city and recorded on a cold Sunday morning. Provided in SFZ and decentSampler formats. 
+[Playground Tubular Bells zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Playground_TubularBells.zip)
+
+---
