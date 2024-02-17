@@ -8,5 +8,5 @@
 
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
-
+[Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
 
