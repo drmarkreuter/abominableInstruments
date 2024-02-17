@@ -4,6 +4,7 @@
 
 ## Brassando
 #### A sampled euphoium, trumpet, and combined euphonium + trumpet patch in SFZ and decentSampler format. The euphonium is gloriously wobbly in pitch (blame the operator...)
+[Brassando zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Brassando.zip)
 
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
