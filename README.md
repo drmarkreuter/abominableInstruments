@@ -10,7 +10,7 @@
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
 [Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
-![Brassando](Toy Piano/resources/Ko-fi-shop-toy-piano.png)
+![Brassando](Toy%20Piano/resources/Ko-fi-shop-toy-piano.png)
 
 ## Playground Tubular Bells
 #### Made from a tubular bell toy found in a playground in the city and recorded on a cold Sunday morning. Provided in SFZ and decentSampler formats. 
