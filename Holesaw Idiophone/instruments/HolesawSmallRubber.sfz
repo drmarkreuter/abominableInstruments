@@ -1,0 +1,21 @@
+//HolesawHardRubber
+//2022-05-03
+<control>
+
+label_cc100=Attack
+label_cc103=Release
+set_cc100=1
+set_cc103=100
+
+<global>
+
+<group>
+//Envelope
+ampeg_attack=0.2
+ampeg_attackcc100=1
+ampeg_release=3.0
+ampeg_releasecc103=100
+
+//105
+<region> sample=../samples/A7-small rubber beater.wav lokey=36 hikey=96 pitch_keycenter=105 seq_length=1 seq_position=1 lovel=0 hivel=127
+
