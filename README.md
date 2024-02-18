@@ -2,6 +2,8 @@
 
 ### A repo for my sample instruments, usually in both SFZ and decentSampler format
 
+See [here](https://drmarkreuter.github.io/abominableInstruments/) for website with demos
+
 ## Brassando
 #### A sampled euphoium, trumpet, and combined euphonium + trumpet patch in SFZ and decentSampler format. The euphonium is gloriously wobbly in pitch (blame the operator...)
 [Brassando zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Brassando.zip)
