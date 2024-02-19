@@ -2,6 +2,7 @@
 //2023-07-29
 //abominable
 //Made with love by Mark
+
 <control>
 label_cc100=Attack
 //label_cc101=Decay
@@ -10,11 +11,11 @@ label_cc103=Release
 set_cc100=1
 //set_cc101=50
 //set_cc102=50
+set_cc103=100
 
 <global>
 
 <group>
-//Envelope
 ampeg_attack=0.0
 ampeg_attackcc100=1
 //ampeg_decay=2.0
@@ -23,6 +24,7 @@ ampeg_attackcc100=1
 //ampeg_sustaincc102=50
 ampeg_release=4.5
 ampeg_releasecc103=100
+
 
 <region> sample=../samples/NightSky-KalimbaA3-04.wav lokey=36 hikey=96 pitch_keycenter=57 seq_length=1 seq_position=1 lovel=0 hivel=127
 
