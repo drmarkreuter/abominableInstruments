@@ -7,13 +7,12 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 ## Brassando
 #### A sampled euphoium, trumpet, and combined euphonium + trumpet patch in SFZ and decentSampler format. The euphonium is gloriously wobbly in pitch (blame the operator...)
 [Brassando zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Brassando.zip)
-![Brassando](Brassando/resources/BrassandoArt.png)
 <img src="Brassando/resources/BrassandoArt.png" alt="Brassando art" width="300" height="auto">
 
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
 [Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
-![Brassando](Toy%20Piano/resources/Ko-fi-shop-toy-piano.png)
+<img src="Toy%20Piano/resources/Ko-fi-shop-toy-piano.png" alt="toy piano art" width="300" height="auto">
 
 ## Playground Tubular Bells
 #### Made from a tubular bell toy found in a playground in the city and recorded on a cold Sunday morning. Provided in SFZ and decentSampler formats. 
