@@ -8,6 +8,7 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 #### A sampled euphoium, trumpet, and combined euphonium + trumpet patch in SFZ and decentSampler format. The euphonium is gloriously wobbly in pitch (blame the operator...)
 [Brassando zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Brassando.zip)
 ![Brassando](Brassando/resources/BrassandoArt.png)
+<img src="Brassando/resources/BrassandoArt.png" alt="Brassando art" width="300" height="auto">
 
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
