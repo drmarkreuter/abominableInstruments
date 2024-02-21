@@ -167,39 +167,39 @@ a {
     <h4 class='branch'>Holesaw Idiophone</h4>
     <img class='wordart' src='Holesaw Idiophone/resources/HolesawIdiophone_Ko-fi-shop.png' width='80%'>
     <br>
-    <audio id="branches8" controls style="vertical-align: middle;"><source src="mp3/Branches - 08 - Yew - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <audio id="branches8" controls style="vertical-align: middle;"><source src="mp3/Holesaw_Idiophone_Demo.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
     <br>
     <p class="prose">A humble homemade ideophone made from holesaws!</p>
     <br>
     <a href="https://github.com/drmarkreuter/abominableInstruments/blob/main/Holesaw_Idiophone.zip" target="_blank">Download zip file</a>
   </div>  
   <div class="grid-item" id="agrid">
-    <h4 class='branch'>none</h4>
-    <img class='wordart' src='' width='65%'>
+    <h4 class='branch'>Fire-Lyre</h4>
+    <img class='wordart' src='Fire-lyre/resources/Ko-fi-shop-firelyre.png' width='80%'>
     <br>
     <audio id="branches3" controls style="vertical-align: middle;"><source src="mp3/Branches - 03 - Silver Birch - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
     <br>
-    <p class="prose">this is some text</p>
+    <p class="prose">A sampled kit lyre played a few different ways...</p>
     <br>
     <a href="" target="_blank">Download zip file</a>
   </div>
   <div class="grid-item" id="bgrid">
-    <h4 class='branch'>none</h4>
-    <img class='wordart' src='' width='65%'>
+    <h4 class='branch'>Tiramisu</h4>
+    <img class='wordart' src='Tiramisu/resources/Ko-fi-shop-Tiramisu.png' width='80%'>
     <br>
-    <audio id="branches6" controls style="vertical-align: middle;"><source src="mp3/Branches - 06 - Holly - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <audio id="branches6" controls style="vertical-align: middle;"><source src="mp3/Tiramisu_Demo.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
     <br>
-    <p class="prose"></p>
+    <p class="prose">A percussion instrument based on a Tiramisu pot. It was delicious...</p>
     <br>
     <a href="" target="_blank">Download zip file</a>
   </div>
   <div class="grid-item" id="agrid">
-    <h4 class='branch'>none</h4>
-    <img class='wordart' src='' width='65%'> 
+    <h4 class='branch'>Mystic Beats</h4>
+    <img class='wordart' src='Mystic Beats/resources/mystic-beats.png' width='80%'> 
     <br>
-    <audio id="branches9" controls style="vertical-align: middle;"><source src="mp3/Branches - 09 - Beech - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <audio id="branches9" controls style="vertical-align: middle;"><source src="mp3/Mystic_Percussion_Demo.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
     <br>
-    <p class="prose">this is some text</p>
+    <p class="prose">Some bleeps and bloops from the Mystic drone synth from Recovery Effects</p>
     <br>
     <a href="" target="_blank">Download zip file</a>
   </div>  
@@ -249,59 +249,6 @@ a {
   <p><a href="mailto:mark.reuter@googlemail.com?subject=instruments">contact</a></p>
 </footer>
 
-<script>
-function playSequentially() {
-  var audio1 = document.getElementById("branches1");
-  var audio2 = document.getElementById("branches2");
-  var audio3 = document.getElementById("branches3");
-  var audio4 = document.getElementById("branches4");
-  var audio5 = document.getElementById("branches5");
-  var audio6 = document.getElementById("branches6");
-  var audio7 = document.getElementById("branches7");
-  var audio8 = document.getElementById("branches8");
-  var audio9 = document.getElementById("branches9");
-
-  // When the first audio finishes playing, play the second one
-  audio1.addEventListener("ended", function() {
-    audio2.play();
-  });
-  
-  audio2.addEventListener("ended", function() {
-    audio3.play();
-  });
-  
-  audio3.addEventListener("ended", function() {
-    audio4.play();
-  });
-  
-  audio4.addEventListener("ended", function() {
-    audio5.play();
-  });
-  
-  audio5.addEventListener("ended", function() {
-    audio6.play();
-  });
-  
-  audio6.addEventListener("ended",function(){
-    audio7.play();
-  });
-  
-  audio7.addEventListener("ended",function(){
-    audio8.play();
-  });
-  
-  audio8.addEventListener("ended",function(){
-    audio9.play();
-  });
-  
-  audio9.addEventListener("ended",function(){
-    audio1.play();
-  });
-}
-
-// Call the function when the page loads
-window.onload = playSequentially;
-</script>
 
 <script>
 //function stopAudio1() {
