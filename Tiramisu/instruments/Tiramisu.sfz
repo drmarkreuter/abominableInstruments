@@ -1,0 +1,229 @@
+//Tiramisu
+//2023-04-28
+//A percussion instrument based on a Tiramisu pot
+// Made with love by Mark
+
+<control>
+label_cc100=Attack
+label_cc103=Release
+set_cc100=1
+set_cc103=100
+
+<global>
+
+<group>
+ampeg_attack=0
+ampeg_release=1
+ampeg_attackcc100=1
+ampeg_releasecc103=100
+
+//1
+<region> sample=../samples/Tiramisu-01.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//10
+<region> sample=../samples/Tiramisu-10.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//11
+<region> sample=../samples/Tiramisu-11.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//12
+<region> sample=../samples/Tiramisu-12.wav lokey=47 hikey=47 pitch_keycenter=47 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//13
+<region> sample=../samples/Tiramisu-13.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//14
+<region> sample=../samples/Tiramisu-14.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//15
+<region> sample=../samples/Tiramisu-15.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//16
+<region> sample=../samples/Tiramisu-16.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//17
+<region> sample=../samples/Tiramisu-17.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//18
+<region> sample=../samples/Tiramisu-18.wav lokey=53 hikey=53 pitch_keycenter=53 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//19
+<region> sample=../samples/Tiramisu-19.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//2
+<region> sample=../samples/Tiramisu-02.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//20
+<region> sample=../samples/Tiramisu-20.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//21
+<region> sample=../samples/Tiramisu-21.wav lokey=56 hikey=56 pitch_keycenter=56 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//22
+<region> sample=../samples/Tiramisu-22.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//23
+<region> sample=../samples/Tiramisu-23.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//24
+<region> sample=../samples/Tiramisu-24.wav lokey=59 hikey=59 pitch_keycenter=59 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//25
+<region> sample=../samples/Tiramisu-25.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//26
+<region> sample=../samples/Tiramisu-26.wav lokey=61 hikey=61 pitch_keycenter=61 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//27
+<region> sample=../samples/Tiramisu-27.wav lokey=62 hikey=62 pitch_keycenter=62 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//28
+<region> sample=../samples/Tiramisu-28.wav lokey=63 hikey=63 pitch_keycenter=63 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//29
+<region> sample=../samples/Tiramisu-29.wav lokey=64 hikey=64 pitch_keycenter=64 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//3
+<region> sample=../samples/Tiramisu-03.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//30
+<region> sample=../samples/Tiramisu-30.wav lokey=65 hikey=65 pitch_keycenter=65 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//31
+<region> sample=../samples/Tiramisu-31.wav lokey=66 hikey=66 pitch_keycenter=66 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//32
+<region> sample=../samples/Tiramisu-32.wav lokey=67 hikey=67 pitch_keycenter=67 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//33
+<region> sample=../samples/Tiramisu-33.wav lokey=68 hikey=68 pitch_keycenter=68 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//34
+<region> sample=../samples/Tiramisu-34.wav lokey=69 hikey=69 pitch_keycenter=69 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//35
+<region> sample=../samples/Tiramisu-35.wav lokey=70 hikey=70 pitch_keycenter=70 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//36
+<region> sample=../samples/Tiramisu-36.wav lokey=71 hikey=71 pitch_keycenter=71 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//37
+<region> sample=../samples/Tiramisu-37.wav lokey=72 hikey=72 pitch_keycenter=72 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//38
+<region> sample=../samples/Tiramisu-38.wav lokey=73 hikey=73 pitch_keycenter=73 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//39
+<region> sample=../samples/Tiramisu-39.wav lokey=74 hikey=74 pitch_keycenter=74 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//4
+<region> sample=../samples/Tiramisu-04.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//40
+<region> sample=../samples/Tiramisu-40.wav lokey=75 hikey=75 pitch_keycenter=75 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//41
+<region> sample=../samples/Tiramisu-41.wav lokey=76 hikey=76 pitch_keycenter=76 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//42
+<region> sample=../samples/Tiramisu-42.wav lokey=77 hikey=77 pitch_keycenter=77 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//43
+<region> sample=../samples/Tiramisu-43.wav lokey=78 hikey=78 pitch_keycenter=78 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//44
+<region> sample=../samples/Tiramisu-44.wav lokey=79 hikey=79 pitch_keycenter=79 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//45
+<region> sample=../samples/Tiramisu-45.wav lokey=80 hikey=80 pitch_keycenter=80 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//46
+<region> sample=../samples/Tiramisu-46.wav lokey=81 hikey=81 pitch_keycenter=81 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//47
+<region> sample=../samples/Tiramisu-47.wav lokey=82 hikey=82 pitch_keycenter=82 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//48
+<region> sample=../samples/Tiramisu-48.wav lokey=83 hikey=83 pitch_keycenter=83 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//49
+<region> sample=../samples/Tiramisu-49.wav lokey=84 hikey=84 pitch_keycenter=84 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//5
+<region> sample=../samples/Tiramisu-05.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//50
+<region> sample=../samples/Tiramisu-50.wav lokey=85 hikey=85 pitch_keycenter=85 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//51
+<region> sample=../samples/Tiramisu-51.wav lokey=86 hikey=86 pitch_keycenter=86 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//52
+<region> sample=../samples/Tiramisu-52.wav lokey=87 hikey=87 pitch_keycenter=87 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//53
+<region> sample=../samples/Tiramisu-53.wav lokey=88 hikey=88 pitch_keycenter=88 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//54
+<region> sample=../samples/Tiramisu-54.wav lokey=89 hikey=89 pitch_keycenter=89 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//55
+<region> sample=../samples/Tiramisu-55.wav lokey=90 hikey=90 pitch_keycenter=90 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//56
+<region> sample=../samples/Tiramisu-56.wav lokey=91 hikey=91 pitch_keycenter=91 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//57
+<region> sample=../samples/Tiramisu-57.wav lokey=92 hikey=92 pitch_keycenter=92 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//58
+<region> sample=../samples/Tiramisu-58.wav lokey=93 hikey=93 pitch_keycenter=93 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//59
+<region> sample=../samples/Tiramisu-59.wav lokey=94 hikey=94 pitch_keycenter=94 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//6
+<region> sample=../samples/Tiramisu-06.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//60
+<region> sample=../samples/Tiramisu-60.wav lokey=95 hikey=95 pitch_keycenter=95 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//61
+<region> sample=../samples/Tiramisu-61.wav lokey=96 hikey=96 pitch_keycenter=96 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//62
+<region> sample=../samples/Tiramisu-62.wav lokey=97 hikey=97 pitch_keycenter=97 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//63
+<region> sample=../samples/Tiramisu-63.wav lokey=98 hikey=98 pitch_keycenter=98 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//64
+<region> sample=../samples/Tiramisu-64.wav lokey=99 hikey=99 pitch_keycenter=99 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//65
+<region> sample=../samples/Tiramisu-65.wav lokey=100 hikey=100 pitch_keycenter=100 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//66
+<region> sample=../samples/Tiramisu-66.wav lokey=101 hikey=101 pitch_keycenter=101 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//67
+<region> sample=../samples/Tiramisu-67.wav lokey=102 hikey=102 pitch_keycenter=102 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//68
+<region> sample=../samples/Tiramisu-68.wav lokey=103 hikey=103 pitch_keycenter=103 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//69
+<region> sample=../samples/Tiramisu-69.wav lokey=104 hikey=104 pitch_keycenter=104 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//7
+<region> sample=../samples/Tiramisu-07.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//70
+<region> sample=../samples/Tiramisu-70.wav lokey=105 hikey=105 pitch_keycenter=105 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//8
+<region> sample=../samples/Tiramisu-08.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//9
+<region> sample=../samples/Tiramisu-09.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=1 seq_position=1 lovel=0 hivel=127
+
