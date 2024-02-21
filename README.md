@@ -30,6 +30,9 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 ## Typewriter
 #### In made this instrument for a live track about a haunted typewriter. Use as an alternative percussion instrument!
+[Typewriter zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Typewriter.zip)
+
+<img src="Typewriter/resources/Typewriter-Ko-fi-shop.png" alt="typewriter art" width="300" height="auto">
 
 ## Holesaw Idiophone
 #### A humble homemade ideophone made from holesaws!
