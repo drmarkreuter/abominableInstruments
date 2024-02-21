@@ -22,4 +22,26 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="Playground_TubularBells/resources/Playground_Tubular_bells_graphic.png" alt="playground tubular bells art" width="300" height="auto">
 
+## Nightsky Kalimba
+#### In expensive Kalimba recorded through the Stymon Nightsky reverb pedal. Provided in SFZ and decentSampler format.
+[Nightsky Kalimba zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Nightsky_Kalimba.zip)
+
+<img src="Nightsky%20Kalimba/resources/Nightsky-kalimba-graphic.png" alt="nightsky kalimba" width="300" height="auto">
+
+## Typewriter
+#### In made this instrument for a live track about a haunted typewriter. Use as an alternative percussion instrument!
+
+## Holesaw Idiophone
+#### A humble homemade ideophone made from holesaws!
+
+## Fire-Lyre
+#### A sampled kit lyre played a few different ways...
+
+## Tiramisu
+#### A percussion instrument based on a Tiramisu pot. It was delicious...
+
+## Mystic Beats
+#### Some bleeps and bloops from the Mystic drone synth from Recovery Effects
+
+
 ---
