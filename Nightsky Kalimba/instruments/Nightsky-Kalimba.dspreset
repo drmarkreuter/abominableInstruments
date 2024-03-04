@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DecentSampler>
-  <ui bgImage="../resources/Nightsky-kalimba812.png" width="812" height="375" layoutMode="relative"
+  <ui bgImage="../resources/Nightsky-kalimba812a.png" width="812" height="375" layoutMode="relative"
       bgMode="top_left">
     <tab name="main">
       <labeled-knob x="700" y="100" label="Tone" type="float" minValue="60" maxValue="22000"
-                    textColor="FF910000" textSize="26" value="22000.0" trackForegroundColor="FF2E7D32" trackBackgroundColor="FF424242">
+                    textColor="FFfff5ee" textSize="34" value="22000.0" trackForegroundColor="FF2E7D32" trackBackgroundColor="FF424242">
         <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"/>
       </labeled-knob>
-
+      
       <labeled-knob x="700" y="1" label="Reverb" type="percent" minValue="0" maxValue="100"
-                    textColor="FF910000" textSize="26" value="05.0" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
+                    textColor="FFfff5ee" textSize="34" value="05.0" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
         <binding type="effect" level="instrument" position="1" parameter="FX_REVERB_WET_LEVEL"
                  factor="0.01"/>
       </labeled-knob>
-
-  <labeled-knob x="600" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
-                    textColor="FF910000" textSize="26" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+    
+  <labeled-knob x="10" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="34" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
         <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
       </labeled-knob>
 
-      <labeled-knob x="600" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
-                    textColor="FF910000" textSize="26" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+      <labeled-knob x="10" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="34" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
         <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
       </labeled-knob>
-      
-        
     </tab>
   </ui>
   <groups attack="0.05" decay="1.0" sustain="1.0" release="2.0" volume="-1dB">
