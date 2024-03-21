@@ -37,6 +37,8 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 ## Holesaw Idiophone
 #### A humble homemade ideophone made from holesaws!
 
+<img src="Holesaw Idiophone/resources/HolesawIdiophone_Ko-fi-shop.png" alt="holesaw art" width="300" height="auto">
+
 ## Fire-Lyre
 #### A sampled kit lyre played a few different ways...
 
