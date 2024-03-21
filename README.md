@@ -50,8 +50,12 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 #### A percussion instrument based on a Tiramisu pot. It was delicious...
 [Tiramisu zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Tiramisu.zip)
 
+<img src="Tiramisu/resources/Ko-fi-shop-Tiramisu.png" alt="Tiramisu art" width="300" height="auto">
+
 ## Mystic Beats
 #### Some bleeps and bloops from the Mystic drone synth from Recovery Effects
 [Mystic beats zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Mystic_Beats.zip)
+
+<img src="Mystic_Beats/resources/mystic-beats.png" alt="Mystic art" width="300" height="auto">
 
 ---
