@@ -36,6 +36,7 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 ## Holesaw Idiophone
 #### A humble homemade ideophone made from holesaws!
+[Holesaw Idiophone zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Holesaw_Idiophone.zip)
 
 <img src="Holesaw Idiophone/resources/HolesawIdiophone_Ko-fi-shop.png" alt="holesaw art" width="300" height="auto">
 
