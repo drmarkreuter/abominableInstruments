@@ -1,0 +1,155 @@
+//percussion soup
+//2024-02-27
+//made with love by Mark
+
+<control>
+label_cc100=Attack
+label_cc103=Release
+set_cc100=0
+set_cc103=13
+
+<global>
+
+<group>
+ampeg_attack=0
+ampeg_release=0.5
+ampeg_attackcc100=0
+ampeg_releasecc103=10
+
+//36 gourd
+<region> sample=../samples/Gourd_hit01.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/Gourd_hit03.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/Gourd_hit04.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/Gourd_hit05.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/Gourd_hit02.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//37 tambo stick
+<region> sample=../samples/TamboStick1.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/TamboStick3.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/TamboStick4.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/TamboStick5.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/TamboStick2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//38 tambo stick chacha
+<region> sample=../samples/TamboStickChaCha1.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/TamboStickChaCha2.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/TamboStickChaCha3.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/TamboStickChaCha4.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/TamboStickChaCha5.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//39 knives
+<region> sample=../samples/knives1.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/knives2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/knives3.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/knives4.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/knives5.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//40 round shaker
+<region> sample=../samples/round-shakerShaCa1.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/round-shakerShaCa2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/round-shakerShaCa3.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/round-shakerShaCa4.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/round-shakerShaCa5.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//41 round shaker 2
+<region> sample=../samples/round-shakerShak1.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/round-shakerShak2.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/round-shakerShak3.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/round-shakerShak4.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/round-shakerShak5.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//42 round shakre thumb tap
+<region> sample=../samples/Round-shaker-thumbtap1.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/Round-shaker-thumbtap2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/Round-shaker-thumbtap3.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/Round-shaker-thumbtap4.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/Round-shaker-thumbtap5.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//43 guiro
+<region> sample=../samples/Guiro1.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/Guiro2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/Guiro3.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/Guiro4.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/Guiro5.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//44 Guiro Tap
+<region> sample=../samples/GuiroTap1.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/GuiroTap2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/GuiroTap3.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/GuiroTap4.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/GuiroTap5.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//45 Guiro Thumb Jam
+<region> sample=../samples/GuiroThumbJam1.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/GuiroThumbJam2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/GuiroThumbJam3.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/GuiroThumbJam4.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/GuiroThumbJam5.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//46 Cabasa DoorHandle
+<region> sample=../samples/CabasaDoorHandle1.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/CabasaDoorHandle2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/CabasaDoorHandle3.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/CabasaDoorHandle4.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/CabasaDoorHandle5.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//47 CabasaHand
+<region> sample=../samples/CabasaHand1.wav lokey=47 hikey=47 pitch_keycenter=47 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/CabasaHand2.wav lokey=47 hikey=47 pitch_keycenter=47 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/CabasaHand3.wav lokey=47 hikey=47 pitch_keycenter=47 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/CabasaHand4.wav lokey=47 hikey=47 pitch_keycenter=47 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/CabasaHand5.wav lokey=47 hikey=47 pitch_keycenter=47 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//48 CabasaTwist
+<region> sample=../samples/CabasaTwist1.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/CabasaTwist2.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/CabasaTwist3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/CabasaTwist4.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/CabasaTwist5.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//49 bananagrams1
+<region> sample=../samples/bananagrams1.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/bananagrams2.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/bananagrams3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/bananagrams4.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/bananagrams5.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//50 bananagrams-ShaSha1
+<region> sample=../samples/bananagrams-ShaSha1.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/bananagrams-ShaSha2.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/bananagrams-ShaSha3.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/bananagrams-ShaSha4.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/bananagrams-ShaSha5.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//51 banangramTiles1
+<region> sample=../samples/banangramTiles1.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/banangramTiles2.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/banangramTiles3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/banangramTiles4.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/banangramTiles5.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//52 handsnare
+
+<region> sample=../samples/handsnare1.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/handsnare2.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/handsnare3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/handsnare4.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/handsnare5.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//53 handsnareflam
+
+<region> sample=../samples/handsnareflam1.wav lokey=53 hikey=53 pitch_keycenter=53 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/handsnareflam2.wav lokey=53 hikey=53 pitch_keycenter=53 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/handsnareflam3.wav lokey=53 hikey=53 pitch_keycenter=53 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/handsnareflam4.wav lokey=53 hikey=53 pitch_keycenter=53 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/handsnareflam5.wav lokey=53 hikey=53 pitch_keycenter=53 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//54 handsnareslap
+
+<region> sample=../samples/handsnareslap1.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=5 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/handsnareslap2.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=5 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/handsnareslap3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=5 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/handsnareslap4.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=5 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/handsnareslap5.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=5 seq_position=5 lovel=0 hivel=127
+
+//end
