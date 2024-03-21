@@ -42,6 +42,7 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 ## Fire-Lyre
 #### A sampled kit lyre played a few different ways...
+[Fire lyre zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Fire-lyre.zip)
 
 <img src="Fire-lyre/resources/Ko-fi-shop-firelyre.png" alt="fire lyre" width="300" height="auto">
 
