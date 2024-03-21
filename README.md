@@ -43,6 +43,8 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 ## Fire-Lyre
 #### A sampled kit lyre played a few different ways...
 
+<img src="Fire-lyre/resources/Ko-fi-shop-firelyre.png" alt="fire lyre" width="300" height="auto">
+
 ## Tiramisu
 #### A percussion instrument based on a Tiramisu pot. It was delicious...
 
