@@ -1,10 +1,17 @@
-//sfz instrument
+//paperclip lyre
 //2020-12-29
-//Prepared Lyre - paperclip
+//abominable
+//Made with love by Mark
 <control>
+label_cc100=Attack
+label_cc103=Release
+set_cc100=1
+set_cc103=100
 <global>
 
 <group>
 ampeg_attack=0
 ampeg_release=4
-<region> sample=../samples/original/Paperclip-comp.wav lokey=36 hikey=72 pitch_keycenter=57 seq_length=1 seq_position=1 lovel=0 hivel=127
+ampeg_attackcc100=1
+ampeg_releasecc103=100
+<region> sample=../samples/original/Paperclip-comp.wav lokey=36 hikey=84 pitch_keycenter=57 seq_length=1 seq_position=1 lovel=0 hivel=127

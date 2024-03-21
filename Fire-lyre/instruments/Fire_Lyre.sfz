@@ -1,15 +1,20 @@
-//sfz instrument
-//2020-12-27
-//firelyre
+//fire-lyre
+//2020-12-29
+//abominable
+//Made with love by Mark
 <control>
+label_cc100=Attack
+label_cc103=Release
+set_cc100=1
+set_cc103=100
 <global>
 
 <group>
 ampeg_attack=0
-ampeg_release=3
+ampeg_release=3.5
+ampeg_attackcc100=1
+ampeg_releasecc103=100
 
- 
- 
 <region> sample=../samples/original/lyre-E5-01-comp.wav lokey=76 hikey=84 pitch_keycenter=76 seq_length=2 seq_position=1 lovel=0 hivel=127
 <region> sample=../samples/original/lyre-E5-02-comp.wav lokey=76 hikey=84 pitch_keycenter=76 seq_length=2 seq_position=2 lovel=0 hivel=127
 
@@ -34,8 +39,4 @@ ampeg_release=3
 
 <region> sample=../samples/original/lyre-D4-02-comp.wav lokey=24 hikey=62 pitch_keycenter=62 seq_length=2 seq_position=1 lovel=0 hivel=127
 <region> sample=../samples/original/lyre-D4-01-comp.wav lokey=24 hikey=62 pitch_keycenter=62 seq_length=2 seq_position=2 lovel=0 hivel=127
-
-
-
-
 
