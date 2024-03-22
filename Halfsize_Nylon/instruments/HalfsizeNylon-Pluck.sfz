@@ -1,0 +1,46 @@
+//Halfsize Nylon - plucked
+//2021-07-02
+//abominable
+//Made with love by Mark
+
+<control>
+label_cc100=Attack
+//label_cc101=Decay
+//label_cc102=Sustain
+label_cc103=Release
+set_cc100=1
+//set_cc101=50
+//set_cc102=50
+set_cc103=100
+
+<global>
+
+<group>
+//Envelope
+ampeg_attack=0.0
+ampeg_attackcc100=1
+//ampeg_decay=2.0
+//ampeg_decaycc101=50
+//ampeg_sustain=2.0
+//ampeg_sustaincc102=50
+ampeg_release=4.0
+ampeg_releasecc103=100
+
+//40
+<region> sample=../samples/HalfsizeNylonE2-pluck.wav lokey=36 hikey=42 pitch_keycenter=40 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//45
+<region> sample=../samples/HalfsizeNylonA2-pluck.wav lokey=43 hikey=47 pitch_keycenter=45 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//50
+<region> sample=../samples/HalfsizeNylonD3-pluck.wav lokey=48 hikey=52 pitch_keycenter=50 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//55
+<region> sample=../samples/HalfsizeNylonG3-pluck.wav lokey=53 hikey=57 pitch_keycenter=55 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//59
+<region> sample=../samples/HalfsizeNylonB3-pluck.wav lokey=58 hikey=61 pitch_keycenter=59 seq_length=1 seq_position=1 lovel=0 hivel=127
+
+//64
+<region> sample=../samples/HalfsizeNylonE4-pluck.wav lokey=62 hikey=84 pitch_keycenter=64 seq_length=1 seq_position=1 lovel=0 hivel=127
+
