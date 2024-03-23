@@ -1,0 +1,25 @@
+//stylophone Vibrato
+//2024-01-18
+//abominable
+//Made with love by Mark
+
+
+<control>
+label_cc100=Attack
+label_cc103=Release
+set_cc100=1
+set_cc103=100
+
+<global>
+
+<group>
+//Envelope
+ampeg_attack=0.0
+ampeg_attackcc100=1
+ampeg_release=4.0
+ampeg_releasecc103=100
+
+<region> sample=../samples/Stylophone-VibA2.wav lokey=24 hikey=45 pitch_keycenter=45 seq_length=1 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/Stylophone-VibA3.wav lokey=46 hikey=57 pitch_keycenter=57 seq_length=1 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/Stylophone-VibA4.wav lokey=58 hikey=84 pitch_keycenter=69 seq_length=1 seq_position=1 lovel=0 hivel=127
+
