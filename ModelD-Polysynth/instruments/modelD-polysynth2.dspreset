@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+  <ui bgImage="../resources/modeld812-02.png" width="812" height="375" layoutMode="relative"
+      bgMode="top_left">
+    <tab name="main">
+      <!-- <labeled-knob x="700" y="100" label="Tone" type="float" minValue="60" maxValue="22000"
+                    textColor="FFfff5ee" textSize="30" value="22000.0" trackForegroundColor="FF2E7D32" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"/>
+      </labeled-knob> -->
+      
+      <labeled-knob x="700" y="100" label="Chorus Mix" type="float" minValue="0.0" maxValue="1" value="0" 
+                    textSize="28" textColor="FFfff5ee" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+      </labeled-knob>
+
+      <labeled-knob x="550" y="130" width="90" height="90" label="Depth" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
+                    textSize="28" textColor="FFfff5ee" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MOD_DEPTH" />
+      </labeled-knob>
+
+      <labeled-knob x="630" y="130" width="90" height="90" label="Rate" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
+                    textSize="28" textColor="FFfff5ee" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MOD_RATE" />
+      </labeled-knob>
+
+      <labeled-knob x="700" y="1" label="Reverb" type="percent" minValue="0" maxValue="100"
+                    textColor="FFfff5ee" textSize="30" value="05.0" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
+        <binding type="effect" level="instrument" position="1" parameter="FX_REVERB_WET_LEVEL" factor="0.01"/>
+      </labeled-knob>
+
+      <labeled-knob x="5" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="30" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
+      </labeled-knob>
+
+      <labeled-knob x="5" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="30" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
+      </labeled-knob>
+    </tab>
+  </ui>
+  <groups attack="0.1" decay="1.0" sustain="1.0" release="3.0" attackCurve="0" releaseCurve="0" volume="-0.1dB" pan="0">
+    <group name="toypiano" seqMode="round_robin" >
+      <sample path="../samples/modelD-02-A1.wav" loNote="24" hiNote="35" rootNote="33"  seqPosition="1" volume="1" loopEnabled="true" loopStart="8000" loopEnd="170000" loopCrossfade="20000" loopCrossfadeMode="linear"/>
+      <sample path="../samples/modelD-02-A2.wav" loNote="36" hiNote="47" rootNote="45"  seqPosition="1" volume="1" loopEnabled="true" loopStart="8000" loopEnd="170000" loopCrossfade="20000" loopCrossfadeMode="linear"/>
+      <sample path="../samples/modelD-02-A3.wav" loNote="48" hiNote="59" rootNote="57"  seqPosition="1" volume="1" loopEnabled="true" loopStart="8000" loopEnd="170000" loopCrossfade="20000" loopCrossfadeMode="linear"/>
+      <sample path="../samples/modelD-02-A4.wav" loNote="60" hiNote="71" rootNote="69"  seqPosition="1" volume="1" loopEnabled="true" loopStart="8000" loopEnd="170000" loopCrossfade="20000" loopCrossfadeMode="linear"/>
+      <sample path="../samples/modelD-02-A5.wav" loNote="72" hiNote="96" rootNote="81"  seqPosition="1" volume="1" loopEnabled="true" loopStart="8000" loopEnd="170000" loopCrossfade="20000" loopCrossfadeMode="linear"/>
+    </group>
+  </groups>
+
+  <effects>
+    <!-- <effect type="lowpass_4pl" frequency="22000.0"/> -->
+    <effect type="reverb" wetLevel="0.5"/>
+    <effect type="chorus"  mix="0.0" modDepth="0.4" modRate="0.2" />
+  </effects>
+</DecentSampler>
