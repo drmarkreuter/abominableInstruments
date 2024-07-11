@@ -1,27 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DecentSampler>
-  <ui bgImage="../resources/stylophone812.png" width="812" height="375" layoutMode="relative"
+  <ui bgImage="../resources/stylophone812b.png" width="812" height="375" layoutMode="relative"
       bgMode="top_left">
     <tab name="main">
+
+      <!-- tone -->
       <labeled-knob x="700" y="100" label="Tone" type="float" minValue="60" maxValue="22000"
                     textColor="FF910000" textSize="30" value="22000.0" trackForegroundColor="FF2E7D32" trackBackgroundColor="FF424242">
         <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"/>
       </labeled-knob>
       
+      <!-- reverb -->
       <labeled-knob x="700" y="1" label="Reverb" type="percent" minValue="0" maxValue="100"
                     textColor="FF910000" textSize="30" value="05.0" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
         <binding type="effect" level="instrument" position="1" parameter="FX_REVERB_WET_LEVEL"
                  factor="0.01"/>
       </labeled-knob>
-    
-  <labeled-knob x="10" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
-                    textColor="FF910000" textSize="30" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
-        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
+
+      <!-- chorus -->
+      <labeled-knob x="420" y="1" label="Chorus Mix" type="float" minValue="0.0" maxValue="1" value="0.2" 
+                    textSize="30" textColor="FF000000" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
       </labeled-knob>
 
+      <labeled-knob x="520" y="20" width="90" height="90" label="Depth" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
+                    textSize="32" textColor="FF000000" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MOD_DEPTH" />
+      </labeled-knob>
+
+      <labeled-knob x="600" y="20" width="90" height="90" label="Rate" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
+                    textSize="32" textColor="FF000000" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MOD_RATE" />
+      </labeled-knob>
+
+      <!-- amp env -->
       <labeled-knob x="10" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
                     textColor="FF910000" textSize="30" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
         <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
+      </labeled-knob>
+
+      <labeled-knob x="10" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FF910000" textSize="30" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
       </labeled-knob>
     </tab>
   </ui>
@@ -36,5 +56,6 @@
   <effects>
     <effect type="lowpass_4pl" frequency="22000.0"/>
     <effect type="reverb" wetLevel="0.5"/>
+    <effect type="chorus"  mix="0.2" modDepth="0.4" modRate="0.4"/>
   </effects>
 </DecentSampler>
