@@ -14,20 +14,23 @@
                  factor="0.01"/>
       </labeled-knob>
 
-  <labeled-knob x="300" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
-                    textColor="FFfff5ee" textSize="32" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
-        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
-      </labeled-knob>
+      <!-- amp envelope -->
 
-      <labeled-knob x="300" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
+      <labeled-knob x="30" y="100" label="Attack" type="float" minValue="0.0" maxValue="3.0"
                     textColor="FFfff5ee" textSize="32" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
         <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
       </labeled-knob>
+
+      <labeled-knob x="150" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="32" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
+      </labeled-knob>
+      
     </tab>
   </ui>
   <groups attack="0.1" decay="1.0" sustain="1.0" release="3.0" volume="-1dB">
     <group name="mystic" seqMode="round_robin" >
-      <sample path="../samples/ElectroMechNoise2.wav" loNote="36" hiNote="96" rootNote="45"  seqPosition="1" volume="0.7"/>
+      <sample path="../samples/ElectroMechNoise2.wav" loNote="36" hiNote="96" rootNote="45"  seqPosition="1" volume="0.7" start="80" loopEnabled="true" loopStart="300" loopEnd="150000" loopCrossfade="9000" loopCrossfadeMode="linear"/>
     </group>
   </groups>
 
