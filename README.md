@@ -10,6 +10,12 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="Brassando/resources/BrassandoArt.png" alt="Brassando art" width="300" height="auto">
 
+## Electro-mechanial Noise
+#### A sample instrument based on recording a cassette mechanism from a Sony Walkman through a modular synth.
+[Electro-mechanical Noise zip file download]()
+
+<img src="Electro_Mechanical_Noise/resources/Ko-fi-shop-electromechanical-noise.png" alt="Electro-mechanical noise art" width="300" height="auto">
+
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
 [Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
