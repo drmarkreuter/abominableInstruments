@@ -1,0 +1,27 @@
+//Thunder
+//2024-01-04
+//abominable
+//Made with love by Mark
+
+<control>
+label_cc100=Attack
+label_cc103=Release
+set_cc100=1
+set_cc103=100
+
+<global>
+
+<group>
+//Envelope
+ampeg_attack=0.0
+ampeg_attackcc100=1
+ampeg_release=4.0
+ampeg_releasecc103=100
+
+<region> sample=../samples/Thunder1.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=7 seq_position=1 lovel=0 hivel=127
+<region> sample=../samples/Thunder2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=7 seq_position=2 lovel=0 hivel=127
+<region> sample=../samples/Thunder3.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=7 seq_position=3 lovel=0 hivel=127
+<region> sample=../samples/Thunder4.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=7 seq_position=4 lovel=0 hivel=127
+<region> sample=../samples/Thunder5.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=7 seq_position=5 lovel=0 hivel=127
+<region> sample=../samples/Thunder6.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=7 seq_position=6 lovel=0 hivel=127
+<region> sample=../samples/Thunder7.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=7 seq_position=7 lovel=0 hivel=127
