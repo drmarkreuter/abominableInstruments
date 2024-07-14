@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- kalimba recorded through a Strymon Nightsky pedal recorded by Mark -->
+<DecentSampler>
+  <ui bgImage="../resources/Nightsky-kalimba812a.png" width="812" height="375" layoutMode="relative"
+      bgMode="top_left">
+    <tab name="main">
+      <labeled-knob x="700" y="100" label="Tone" type="float" minValue="60" maxValue="22000"
+                    textColor="FFfff5ee" textSize="34" value="22000.0" trackForegroundColor="FF2E7D32" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"/>
+      </labeled-knob>
+      
+      <labeled-knob x="700" y="1" label="Reverb" type="percent" minValue="0" maxValue="100"
+                    textColor="FFfff5ee" textSize="34" value="05.0" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
+        <binding type="effect" level="instrument" position="1" parameter="FX_REVERB_WET_LEVEL"
+                 factor="0.01"/>
+      </labeled-knob>
+
+      <!-- delay -->
+      <labeled-knob x="200" y="90" label="Delay Time" valueType="float" minValue="0" maxValue="5" value="0.5"
+      textColor="FFfff5ee" textSize="30" trackForegroundColor="FFF07373" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="310" y="90" label="Feedback" valueType="float" minValue="0" maxValue="1" value="0.5"
+      textColor="FFfff5ee" textSize="30" trackForegroundColor="FFF07373" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_FEEDBACK" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="420" y="90" label="Offset" valueType="float" minValue="0" maxValue="1" value="0.01"
+      textColor="FFfff5ee" textSize="30" trackForegroundColor="FFF07373" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_STEREO_OFFSET" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="530" y="90" label="Delay Mix" valueType="float" minValue="0" maxValue="1" value="0.5"
+      textColor="FFfff5ee" textSize="30" trackForegroundColor="FFF07373" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_WET_LEVEL" translation="linear"/>
+      </labeled-knob>
+
+      <!-- amp env -->
+
+      <labeled-knob x="10" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="34" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
+      </labeled-knob>
+    
+      <labeled-knob x="10" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="34" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
+      </labeled-knob>
+
+    </tab>
+  </ui>
+  <groups attack="0.05" decay="1.0" sustain="1.0" release="2.0" volume="-1dB">
+    <group name="mystic" seqMode="round_robin" >
+      <sample path="../samples/NightSky-KalimbaA3-04.wav" loNote="36" hiNote="96" rootNote="57"  seqPosition="1" volume="0.7"/>
+    </group>
+  </groups>
+
+  <effects>
+    <effect type="lowpass_4pl" frequency="22000.0"/>
+    <effect type="reverb" wetLevel="0.5"/>
+    <effect type="delay" delayTime="0.5" stereoOffset="0.01" feedback="0.2" wetLevel="0.5"/>
+  </effects>
+</DecentSampler>
+<!-- Version 1.1 with added Delay effect -->
