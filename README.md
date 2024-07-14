@@ -32,7 +32,7 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 #### In expensive Kalimba recorded through the Stymon Nightsky reverb pedal. Provided in SFZ and decentSampler format.
 [Nightsky Kalimba zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Nightsky_Kalimba.zip)
 
-<img src="Nightsky%20Kalimba/resources/Nightsky-kalimba-graphic.png" alt="nightsky kalimba" width="300" height="auto">
+<img src="Nightsky_Kalimba/resources/Nightsky-kalimba-graphic.png" alt="nightsky kalimba" width="300" height="auto">
 
 ## Typewriter
 #### In made this instrument for a live track about a haunted typewriter. Use as an alternative percussion instrument!
