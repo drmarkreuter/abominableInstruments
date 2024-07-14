@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Halfsize nylon guitar sampled by Mark July 2024 -->
 <DecentSampler>
   <ui bgImage="../resources/halfsozeNylon.png" width="812" height="375" layoutMode="relative"
       bgMode="top_left">
@@ -9,9 +10,34 @@
       </labeled-knob>
       
       <labeled-knob x="700" y="1" label="Reverb" type="percent" minValue="0" maxValue="100"
-                    textColor="FF910000" textSize="30" value="05.0" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
+                    textColor="FF910000" textSize="30" value="30" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
         <binding type="effect" level="instrument" position="1" parameter="FX_REVERB_WET_LEVEL"
                  factor="0.01"/>
+      </labeled-knob>
+
+      <!-- delay -->
+      <labeled-knob x="200" y="1" label="Delay Time" valueType="float" minValue="0" maxValue="5" value="0.5"
+      textColor="FFfff5ee" textSize="30" trackForegroundColor="FFF07373" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="310" y="1" label="Feedback" valueType="float" minValue="0" maxValue="1" value="0.5"
+      textColor="FFfff5ee" textSize="30" trackForegroundColor="FFF07373" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_FEEDBACK" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="420" y="1" label="Offset" valueType="float" minValue="0" maxValue="1" value="0.01"
+      textColor="FFfff5ee" textSize="30" trackForegroundColor="FFF07373" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_STEREO_OFFSET" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="530" y="1" label="Delay Mix" valueType="float" minValue="0" maxValue="1" value="0.5"
+      textColor="FFfff5ee" textSize="30" trackForegroundColor="FFF07373" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_WET_LEVEL" translation="linear"/>
+      </labeled-knob>
+
+      <!-- amp env -->
+
+      <labeled-knob x="10" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FF910000" textSize="30" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
       </labeled-knob>
     
       <labeled-knob x="10" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
@@ -19,10 +45,6 @@
         <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
       </labeled-knob>
 
-      <labeled-knob x="10" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
-                    textColor="FF910000" textSize="30" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
-        <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
-      </labeled-knob>
     </tab>
   </ui>
   <groups attack="0.0" decay="0.0" sustain="1.0" release="4.0" volume="-2dB">
@@ -32,13 +54,13 @@
       <sample loNote="48" hiNote="52" rootNote="50" path="../samples/HalfsizeNylonChorusD3-pick.wav"/>
       <sample loNote="53" hiNote="57" rootNote="55" path="../samples/HalfsizeNylonChorusG3-pick.wav"/>
       <sample loNote="58" hiNote="61" rootNote="59" path="../samples/HalfsizeNylonChorusB3-pick.wav"/>
-      <sample loNote="62" hiNote="72" rootNote="64" path="../samples/HalfsizeNylonChorusE4-pick.wav"/>
-      
-       
+      <sample loNote="62" hiNote="84" rootNote="64" path="../samples/HalfsizeNylonChorusE4-pick.wav"/>
     </group>
   </groups>
   <effects>
     <effect type="lowpass_4pl" frequency="22000.0"/>
-    <effect type="reverb" wetLevel="0.4999999888241291"/>
+    <effect type="reverb" wetLevel="0.3"/>
+    <effect type="delay" delayTime="0.5" stereoOffset="0.01" feedback="0.2" wetLevel="0.5"/>
   </effects>
 </DecentSampler>
+<!-- version 1.1 with added delay -->
