@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample Sony walkman cassette mechanism sound, sampled by Mark July 2024 -->
 <DecentSampler>
   <ui bgImage="../resources/electromechanical4-812.png" width="812" height="375" layoutMode="relative"
       bgMode="top_left">
@@ -14,17 +15,48 @@
                  factor="0.01"/>
       </labeled-knob>
 
+      <!-- chorus -->
+      <labeled-knob x="580" y="1" label="Chorus Mix" type="float" minValue="0.0" maxValue="1.0" value="0" 
+                    textSize="32" textColor="FF080808" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_MIX"/>
+      </labeled-knob>
+
+      <labeled-knob x="550" y="130" width="100" height="100" label="Depth" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_MOD_DEPTH"/>
+      </labeled-knob>
+
+      <labeled-knob x="630" y="130" width="100" height="100" label="Rate" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="2" parameter="FX_MOD_RATE"/>
+      </labeled-knob>
+
+      <!-- wave shaper -->
+      <labeled-knob x="300" y="120" width="100" height="100" label="Drive" type="float" minValue="1" maxValue="30" value="2"
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_DRIVE" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="380" y="120" width="100" height="100" label="Drive Boost" type="float" minValue="0" maxValue="1" value="0.3" textColor="FF080808"
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_DRIVE_BOOST" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="470" y="100" label="Output" type="float" minValue="0" maxValue="1" value="0.9" 
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_OUTPUT_LEVEL" translation="linear"/>
+      </labeled-knob>
+
       <!-- amp envelope -->
+
+      <labeled-knob x="30" y="100" label="Attack" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="32" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
+      </labeled-knob>
 
       <labeled-knob x="150" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
                     textColor="FFfff5ee" textSize="32" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
         <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
       </labeled-knob>
 
-      <labeled-knob x="30" y="100" label="Attack" type="float" minValue="0.0" maxValue="3.0"
-                    textColor="FFfff5ee" textSize="32" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
-        <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
-      </labeled-knob>
     </tab>
   </ui>
   <groups attack="0.1" decay="1.0" sustain="1.0" release="3.0" volume="-1dB">
@@ -36,5 +68,8 @@
   <effects>
     <effect type="lowpass_4pl" frequency="22000.0"/>
     <effect type="reverb" wetLevel="0.5"/>
+    <effect type="chorus" mix="0.0" modDepth="0.4" modRate="0.4"/>
+    <effect type="wave_shaper" drive="0.5" shape="0.3" outputLevel="0.9"/>
   </effects>
 </DecentSampler>
+<!-- version 1.1 with distoration effect, chorus effect, and looping -->

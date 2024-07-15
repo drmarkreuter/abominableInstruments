@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample Sony walkman cassette mechanism sound, sampled by Mark July 2024 -->
 <DecentSampler>
   <ui bgImage="../resources/electromechanical4-812.png" width="812" height="375" layoutMode="relative"
       bgMode="top_left">
@@ -15,20 +16,52 @@
       </labeled-knob>
 
       <!-- chorus -->
-      <labeled-knob x="580" y="1" label="Chorus Mix" type="float" minValue="0.0" maxValue="1" value="0" 
+      <labeled-knob x="580" y="1" label="Chorus Mix" type="float" minValue="0.0" maxValue="1.0" value="0" 
                     textSize="32" textColor="FF080808" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
-        <binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+        <binding type="effect" level="instrument" position="2" parameter="FX_MIX"/>
       </labeled-knob>
 
-      <labeled-knob x="550" y="130" width="90" height="90" label="Depth" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
+      <labeled-knob x="550" y="130" width="100" height="100" label="Depth" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
                     textSize="28" textColor="FF080808" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
-        <binding type="effect" level="instrument" position="1" parameter="FX_MOD_DEPTH" />
+        <binding type="effect" level="instrument" position="2" parameter="FX_MOD_DEPTH"/>
       </labeled-knob>
 
-      <labeled-knob x="630" y="130" width="90" height="90" label="Rate" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
+      <labeled-knob x="630" y="130" width="100" height="100" label="Rate" type="float" minValue="0.0" maxValue="1.0" value="0.4" 
                     textSize="28" textColor="FF080808" trackForegroundColor="FF66A58C" trackBackgroundColor="FF424242">
-        <binding type="effect" level="instrument" position="1" parameter="FX_MOD_RATE" />
+        <binding type="effect" level="instrument" position="2" parameter="FX_MOD_RATE"/>
       </labeled-knob>
+
+      <!-- wave shaper -->
+      <labeled-knob x="300" y="120" width="100" height="100" label="Drive" type="float" minValue="1" maxValue="30" value="2"
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_DRIVE" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="380" y="120" width="100" height="100" label="Drive Boost" type="float" minValue="0" maxValue="1" value="0.3" textColor="FF080808"
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_DRIVE_BOOST" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="470" y="100" label="Output" type="float" minValue="0" maxValue="1" value="0.9" 
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_OUTPUT_LEVEL" translation="linear"/>
+      </labeled-knob>
+
+      <!-- delay -->
+      <!-- <labeled-knob x="400" y="1" label="Delay Mix" type="float" minValue="0.0" maxValue="1.0" value="0.2" 
+                    textSize="32" textColor="FF080808" trackForegroundColor="FF8E44AD" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_WET_LEVEL"/>
+      </labeled-knob> -->
+
+      <!-- <labeled-knob x="370" y="130" width="90" height="90" label="Delay Time" type="float" minValue="0.0" maxValue="20.0" value="0.5" 
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF8E44AD" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_DELAY_TIME"/>
+      </labeled-knob>
+
+      <labeled-knob x="460" y="130" width="90" height="90" label="Stereo Offset" type="float" minValue="-10.0" maxValue="10.0" value="0.0" 
+                    textSize="28" textColor="FF080808" trackForegroundColor="FF8E44AD" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="1" parameter="FX_STEREO_OFFSET"/>
+      </labeled-knob> -->
+
+      
 
       <!-- amp envelope -->
 
@@ -54,5 +87,8 @@
     <effect type="lowpass_4pl" frequency="22000.0"/>
     <effect type="reverb" wetLevel="0.5"/>
     <effect type="chorus" mix="0.0" modDepth="0.4" modRate="0.4"/>
+    <effect type="wave_shaper" drive="0.5" shape="0.3" outputLevel="0.9"/>
+    <!-- <effect type="delay" delayTime="0.5" stereoOffset="0.01" feedback="0.2" wetLevel="0.2" /> -->
   </effects>
 </DecentSampler>
+<!-- version 1.1 with distoration effect, chorus effect, and looping -->
