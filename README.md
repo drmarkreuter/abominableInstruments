@@ -28,6 +28,12 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="Halfsize_Nylon/resources/HalfsizeNylon-Ko-fi-shop.png" alt="halfsize nylon" width="300" height="auto">
 
+## Holesaw Idiophone
+#### A humble homemade ideophone made from holesaws!
+[Holesaw Idiophone zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Holesaw_Idiophone.zip)
+
+<img src="Holesaw Idiophone/resources/HolesawIdiophone_Ko-fi-shop.png" alt="holesaw art" width="300" height="auto">
+
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
 [Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
@@ -51,12 +57,6 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 [Typewriter zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Typewriter.zip)
 
 <img src="Typewriter/resources/Typewriter-Ko-fi-shop.png" alt="typewriter art" width="300" height="auto">
-
-## Holesaw Idiophone
-#### A humble homemade ideophone made from holesaws!
-[Holesaw Idiophone zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Holesaw_Idiophone.zip)
-
-<img src="Holesaw Idiophone/resources/HolesawIdiophone_Ko-fi-shop.png" alt="holesaw art" width="300" height="auto">
 
 ## Tiramisu
 #### A percussion instrument based on a Tiramisu pot. It was delicious...
