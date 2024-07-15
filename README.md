@@ -41,7 +41,7 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 <img src="ModelD-Polysynth/resources/modelD-polysynth-art.png" alt="modelD polysynth" width="300" height="auto">
 
 ## Mystic Beats
-#### Some bleeps and bloops from the Mystic drone synth from Recovery Effects
+#### Some bleeps and bloops from the Mystic drone synth from [Recovery Effects](https://recoveryeffects.com/collections/all-products/products/the-mystic-pre-order-semi-modular-desktop-synth)
 [Mystic beats zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Mystic_Beats.zip)
 
 <img src="Mystic_Beats/resources/mystic-beats.png" alt="Mystic art" width="300" height="auto">
