@@ -40,6 +40,12 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="ModelD-Polysynth/resources/modelD-polysynth-art.png" alt="modelD polysynth" width="300" height="auto">
 
+## Mystic Beats
+#### Some bleeps and bloops from the Mystic drone synth from Recovery Effects
+[Mystic beats zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Mystic_Beats.zip)
+
+<img src="Mystic_Beats/resources/mystic-beats.png" alt="Mystic art" width="300" height="auto">
+
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
 [Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
@@ -70,10 +76,5 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="Tiramisu/resources/Ko-fi-shop-Tiramisu.png" alt="Tiramisu art" width="300" height="auto">
 
-## Mystic Beats
-#### Some bleeps and bloops from the Mystic drone synth from Recovery Effects
-[Mystic beats zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Mystic_Beats.zip)
-
-<img src="Mystic_Beats/resources/mystic-beats.png" alt="Mystic art" width="300" height="auto">
 
 ---
