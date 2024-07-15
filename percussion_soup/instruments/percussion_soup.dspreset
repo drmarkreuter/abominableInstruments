@@ -13,15 +13,22 @@
         <binding type="effect" level="instrument" position="1" parameter="FX_REVERB_WET_LEVEL"
                  factor="0.01"/>
       </labeled-knob>
-    
-  <labeled-knob x="10" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
-                    textColor="FF910000" textSize="30" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
-        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
+
+      <labeled-knob x="560" y="100" label="Gain" type="float" minValue="-6" maxValue="16"
+                    textColor="FF910000" textSize="30" value="4" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
+        <binding type="effect" level="instrument" position="2" parameter="LEVEL"/>
       </labeled-knob>
+
+      <!-- amp env -->
 
       <labeled-knob x="10" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
                     textColor="FF910000" textSize="30" value="0.1" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
         <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
+      </labeled-knob>
+    
+      <labeled-knob x="10" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FF910000" textSize="30" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
       </labeled-knob>
         
     </tab>
@@ -165,5 +172,6 @@
   <effects>
     <effect type="lowpass_4pl" frequency="22000.0"/>
     <effect type="reverb" wetLevel="0.5"/>
+    <effect type="gain" level="-6" />
   </effects>
 </DecentSampler>
