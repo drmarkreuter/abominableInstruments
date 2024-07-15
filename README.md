@@ -22,6 +22,12 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="Fire-lyre/resources/Ko-fi-shop-firelyre.png" alt="fire lyre" width="300" height="auto">
 
+## Halfsize Nylon
+#### An old halfsize nylon string guitar I found in a flea market, cleaned-up and sampled
+[Fire lyre zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Halfsize_Nylon.zip)
+
+<img src="Halfsize_Nylon/resources/HalfsizeNylon-Ko-fi-shop.png" alt="halfsize nylon" width="300" height="auto">
+
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
 [Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
