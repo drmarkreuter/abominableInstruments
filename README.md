@@ -46,11 +46,11 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="Mystic_Beats/resources/mystic-beats.png" alt="Mystic art" width="300" height="auto">
 
-## Toy Piano
-#### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
-[Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
+## Nightsky Kalimba
+#### In expensive Kalimba recorded through the Stymon Nightsky reverb pedal. Provided in SFZ and decentSampler format.
+[Nightsky Kalimba zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Nightsky_Kalimba.zip)
 
-<img src="Toy%20Piano/resources/Ko-fi-shop-toy-piano.png" alt="toy piano art" width="300" height="auto">
+<img src="Nightsky_Kalimba/resources/Nightsky-kalimba-graphic.png" alt="nightsky kalimba" width="300" height="auto">
 
 ## Playground Tubular Bells
 #### Made from a tubular bell toy found in a playground in the city and recorded on a cold Sunday morning. Provided in SFZ and decentSampler formats. 
@@ -58,23 +58,29 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="Playground_TubularBells/resources/Playground_Tubular_bells_graphic.png" alt="playground tubular bells art" width="300" height="auto">
 
-## Nightsky Kalimba
-#### In expensive Kalimba recorded through the Stymon Nightsky reverb pedal. Provided in SFZ and decentSampler format.
-[Nightsky Kalimba zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Nightsky_Kalimba.zip)
+## Stylphone
+#### My old stylophone from 10 years ago, quickly sampled before it sadly broke... 
+[Stylphone zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Stylophone.zip)
 
-<img src="Nightsky_Kalimba/resources/Nightsky-kalimba-graphic.png" alt="nightsky kalimba" width="300" height="auto">
-
-## Typewriter
-#### In made this instrument for a live track about a haunted typewriter. Use as an alternative percussion instrument!
-[Typewriter zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Typewriter.zip)
-
-<img src="Typewriter/resources/Typewriter-Ko-fi-shop.png" alt="typewriter art" width="300" height="auto">
+<img src="Stylophone/resources/Stylphone-Ko-fi-shop.png" alt="stylophone art" width="300" height="auto">
 
 ## Tiramisu
 #### A percussion instrument based on a Tiramisu pot. It was delicious...
 [Tiramisu zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Tiramisu.zip)
 
 <img src="Tiramisu/resources/Ko-fi-shop-Tiramisu.png" alt="Tiramisu art" width="300" height="auto">
+
+## Toy Piano
+#### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
+[Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
+
+<img src="Toy%20Piano/resources/Ko-fi-shop-toy-piano.png" alt="toy piano art" width="300" height="auto">
+
+## Typewriter
+#### In made this instrument for a live track about a haunted typewriter. Use as an alternative percussion instrument!
+[Typewriter zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Typewriter.zip)
+
+<img src="Typewriter/resources/Typewriter-Ko-fi-shop.png" alt="typewriter art" width="300" height="auto">
 
 
 ---
