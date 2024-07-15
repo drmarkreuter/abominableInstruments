@@ -24,7 +24,7 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 ## Halfsize Nylon
 #### An old halfsize nylon string guitar I found in a flea market, cleaned-up and sampled
-[Fire lyre zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Halfsize_Nylon.zip)
+[Halfsize Nylon zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Halfsize_Nylon.zip)
 
 <img src="Halfsize_Nylon/resources/HalfsizeNylon-Ko-fi-shop.png" alt="halfsize nylon" width="300" height="auto">
 
@@ -33,6 +33,12 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 [Holesaw Idiophone zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Holesaw_Idiophone.zip)
 
 <img src="Holesaw Idiophone/resources/HolesawIdiophone_Ko-fi-shop.png" alt="holesaw art" width="300" height="auto">
+
+## ModelD Polysynth
+#### A sampled ModelD including samples re-recorded through an old tape machine
+[ModelD Polysynth zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/ModelD-Polysynth.zip)
+
+<img src="ModelD-Polysynth/resources/modelD-polysynth-art.png" alt="modelD polysynth" width="300" height="auto">
 
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
