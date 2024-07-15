@@ -16,6 +16,12 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 
 <img src="Electro_Mechanical_Noise/resources/Ko-fi-shop-electromechanical-noise.png" alt="Electro-mechanical noise art" width="300" height="auto">
 
+## Fire-Lyre
+#### A sampled kit lyre played a few different ways...
+[Fire lyre zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Fire-lyre.zip)
+
+<img src="Fire-lyre/resources/Ko-fi-shop-firelyre.png" alt="fire lyre" width="300" height="auto">
+
 ## Toy Piano
 #### A lovely wooden toy piano, sampling each note, with extended mapping across the entire keyboard. Provided in SFZ and decentSampler formats.
 [Toy Piano zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Toy%20Piano.zip)
@@ -45,12 +51,6 @@ See [here](https://drmarkreuter.github.io/abominableInstruments/) for website wi
 [Holesaw Idiophone zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Holesaw_Idiophone.zip)
 
 <img src="Holesaw Idiophone/resources/HolesawIdiophone_Ko-fi-shop.png" alt="holesaw art" width="300" height="auto">
-
-## Fire-Lyre
-#### A sampled kit lyre played a few different ways...
-[Fire lyre zip file download](https://github.com/drmarkreuter/abominableInstruments/blob/main/Fire-lyre.zip)
-
-<img src="Fire-lyre/resources/Ko-fi-shop-firelyre.png" alt="fire lyre" width="300" height="auto">
 
 ## Tiramisu
 #### A percussion instrument based on a Tiramisu pot. It was delicious...
