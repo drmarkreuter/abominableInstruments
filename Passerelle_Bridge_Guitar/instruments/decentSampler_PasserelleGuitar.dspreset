@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Halfsize nylon guitar sampled by Mark July 2024 -->
+<!-- Passerelle-bridged acoustic guitar sampled by Mark July 2024 -->
 <DecentSampler>
   <ui bgImage="../resources/passerelle.png" width="812" height="375" layoutMode="relative"
       bgMode="top_left">
@@ -63,4 +63,4 @@
     <effect type="delay" delayTime="0.5" stereoOffset="0.01" feedback="0.2" wetLevel="0.5"/>
   </effects>
 </DecentSampler>
-<!-- version 1.1 with added delay -->
+<!-- version 1.0  -->
