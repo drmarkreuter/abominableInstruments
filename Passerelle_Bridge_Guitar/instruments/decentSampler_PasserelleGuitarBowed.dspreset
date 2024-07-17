@@ -55,12 +55,8 @@
   </ui>
   <groups attack="0.0" decay="0.0" sustain="1.0" release="4.0" volume="-0.1dB">
     <group>
-      <sample loNote="36" hiNote="50" rootNote="50" path="../samples/passerelle-D3.wav"/>
-      <sample loNote="51" hiNote="57" rootNote="57" path="../samples/passerelle-A3.wav"/>
-      <sample loNote="58" hiNote="62" rootNote="62" path="../samples/passerelle-D4.wav"/>
-      <sample loNote="63" hiNote="67" rootNote="67" path="../samples/passerelle-G4.wav"/>
-      <sample loNote="68" hiNote="69" rootNote="69" path="../samples/passerelle-A4.wav"/>
-      <sample loNote="70" hiNote="96" rootNote="74" path="../samples/passerelle-D5.wav"/>
+      <sample loNote="36" hiNote="70" rootNote="70" path="../samples/A#4-bowed.wav"/>
+      <sample loNote="71" hiNote="96" rootNote="74" path="../samples/D5-bowed.wav"/>
     </group>
   </groups>
   <effects>

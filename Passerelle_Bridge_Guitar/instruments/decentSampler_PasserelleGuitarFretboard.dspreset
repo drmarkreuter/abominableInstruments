@@ -33,6 +33,12 @@
         <binding type="effect" level="instrument" position="2" parameter="FX_WET_LEVEL" translation="linear"/>
       </labeled-knob>
 
+      <!-- gain -->
+      <labeled-knob x="530" y="1" label="Level" type="float" minValue="-8" maxValue="8" value="1" 
+                    textColor="FFfff5ee" textSize="30" value="22000.0" trackForegroundColor="FFDE3160" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="LEVEL"/>
+      </labeled-knob>
+
       <!-- amp env -->
 
       <labeled-knob x="10" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
@@ -58,6 +64,7 @@
     <effect type="lowpass_4pl" frequency="22000.0"/>
     <effect type="reverb" wetLevel="0.3"/>
     <effect type="delay" delayTime="0.5" stereoOffset="0.01" feedback="0.2" wetLevel="0.5"/>
+    <effect type="gain" level="1" />
   </effects>
 </DecentSampler>
 <!-- version 1.0  -->
