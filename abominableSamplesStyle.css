@@ -1,0 +1,96 @@
+.branch {
+    text-align: center;
+    font-family: monospace;
+    font-size: 24px;
+  }
+  
+  .prose {
+    font-family: monospace;
+    font-size: 14px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  .wordart {
+    border-radius: 12px;
+  }
+  
+  body {
+    background-color: rgb(10, 10, 10);
+    color: rgb(245,255,255);
+    font-size: 14px;
+    background-image: url('images/samplerPaper.jpg');
+    }
+
+a {
+    color: whitesmoke;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+   
+  h2 {
+    font-size: 16px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(15,15,15,1);
+    padding: 5px;
+    }
+    
+    .grid-item {
+      background-color: rgba(15, 15, 15, 1);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      text-align: center;
+      }
+      
+    #agrid {
+      /* background-image: url('images/sycamore-leaves-back.png'); */
+      background-color: brown;
+      border-radius: 50%;
+    }
+    
+    #bgrid {
+      /* background-image: url('images/ashpaper-back.png'); */
+      background-color: rebeccapurple;
+      border-radius: 50%;
+    }
+    
+    #silverbirch-grid {
+      background-image: url('images/silverbirchpaper-back.png');
+    }
+    
+    #sweetchestnut-grid {
+      background-image: url('images/sweetchestnutpaper-back.png');
+    }
+    
+    #elder-grid {
+      background-image: url('images/elderflowerpaper-back.png');
+    }
+    
+    #holly-grid {
+      background-image: url('images/hollypaper-back.png');
+    }
+    
+    #box-grid {
+      background-image: url('images/boxwoodpaper-back.png');
+    }
+    
+    #yew-grid {
+      background-image: url('images/yewpaper-back.png');
+    }
+    
+    #beech-grid {
+      background-image: url('images/beechpaper-back.png');
+    }
