@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+  <ui bgImage="../resources/rolandCR76.png" width="812" height="375" layoutMode="relative"
+      bgMode="top_left">
+    <tab name="main">
+      <labeled-knob x="710" y="100" label="Tone" type="float" minValue="60" maxValue="22000"
+                    textColor="FFfff5ee" textSize="30" value="22000.0" trackForegroundColor="FF2E7D32" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"/>
+      </labeled-knob>
+
+      <!-- reverb -->
+      <labeled-knob x="710" y="1" label="Reverb" type="percent" minValue="0" maxValue="100"
+                    textColor="FFfff5ee" textSize="30" value="20.0" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
+        <binding type="effect" level="instrument" position="1" parameter="FX_REVERB_WET_LEVEL"
+                 factor="0.01"/>
+      </labeled-knob>
+
+      <!-- Gain -->
+      <labeled-knob x="600" y="100" label="Gain" type="float" minValue="-6" maxValue="16"
+                    textColor="FF910000" textSize="30" value="4" trackForegroundColor="FF0097A7" trackBackgroundColor="FF424242">  
+        <binding type="effect" level="instrument" position="2" parameter="LEVEL"/>
+      </labeled-knob>
+
+      <!-- wave shaper -->
+      <labeled-knob x="510" y="110" width="100" height="100" label="Drive" type="float" minValue="1" maxValue="30" value="2"
+                    textSize="28" textColor="FFfff5ee" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_DRIVE" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="510" y="20" width="100" height="100" label="Drive Boost" type="float" minValue="0" maxValue="1" value="0.3"
+                    textSize="28" textColor="FFfff5ee" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_DRIVE_BOOST" translation="linear"/>
+      </labeled-knob>
+      <labeled-knob x="600" y="1" label="Output" type="float" minValue="0" maxValue="1" value="0.9" 
+                    textSize="28" textColor="FFfff5ee" trackForegroundColor="FF7D31DE" trackBackgroundColor="FF424242">
+        <binding type="effect" level="instrument" position="3" parameter="FX_OUTPUT_LEVEL" translation="linear"/>
+      </labeled-knob>
+
+      <!-- amp env -->
+
+      <labeled-knob x="5" y="1" label="Attack" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="30" value="0.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_ATTACK"/>
+      </labeled-knob>
+
+      <labeled-knob x="5" y="100" label="Release" type="float" minValue="0.0" maxValue="3.0"
+                    textColor="FFfff5ee" textSize="30" value="1.0" trackForegroundColor="FFEF6C00" trackBackgroundColor="FF424242">
+        <binding type="amp" level="instrument" position="1" parameter="ENV_RELEASE"/>
+      </labeled-knob>
+
+    </tab>
+  </ui> 
+<groups attack="0.0" decay="1.0" sustain="1.0" release="3.0" attackCurve="100" releaseCurve="0" volume="0.0dB" pan="0"> 
+ <group name="myGroup" seqMode="round_robin">
+	<sample loNote="24" hiNote="24" rootNote="24" seqPosition="1" volume="1" path="../samples/01-Kick.wav"/>
+	<sample loNote="25" hiNote="25" rootNote="25" seqPosition="1" volume="1" path="../samples/02-Kick Accent.wav"/>
+	<sample loNote="26" hiNote="26" rootNote="26" seqPosition="1" volume="1" path="../samples/03-Snare.wav"/>
+	<sample loNote="27" hiNote="27" rootNote="27" seqPosition="1" volume="1" path="../samples/04-Snare Accent.wav"/>
+	<sample loNote="28" hiNote="28" rootNote="28" seqPosition="1" volume="1" path="../samples/05-Rim Shot.wav"/>
+	<sample loNote="29" hiNote="29" rootNote="29" seqPosition="1" volume="1" path="../samples/06-HiHat.wav"/>
+	<sample loNote="30" hiNote="30" rootNote="30" seqPosition="1" volume="1" path="../samples/07-HiHat Metal.wav"/>
+	<sample loNote="31" hiNote="31" rootNote="31" seqPosition="1" volume="1" path="../samples/08-HiHat Accent.wav"/>
+	<sample loNote="32" hiNote="32" rootNote="32" seqPosition="1" volume="1" path="../samples/09-Bongo High.wav"/>
+	<sample loNote="33" hiNote="33" rootNote="33" seqPosition="1" volume="1" path="../samples/10-Bongo Low.wav"/>
+	<sample loNote="34" hiNote="34" rootNote="34" seqPosition="1" volume="1" path="../samples/11-Conga Low.wav"/>
+	<sample loNote="35" hiNote="35" rootNote="35" seqPosition="1" volume="1" path="../samples/12-Cowbell.wav"/>
+	<sample loNote="36" hiNote="36" rootNote="36" seqPosition="1" volume="1" path="../samples/13-Cymbal.wav"/>
+	<sample loNote="37" hiNote="37" rootNote="37" seqPosition="1" volume="1" path="../samples/14-Guiro 1.wav"/>
+	<sample loNote="38" hiNote="38" rootNote="38" seqPosition="1" volume="1" path="../samples/15-Guiro 2.wav"/>
+	<sample loNote="39" hiNote="39" rootNote="39" seqPosition="1" volume="1" path="../samples/16-Tamb 1.wav"/>
+	<sample loNote="40" hiNote="40" rootNote="40" seqPosition="1" volume="1" path="../samples/17-Tamb 2.wav"/>
+ </group>
+</groups>
+<effects>
+    <effect type="lowpass_4pl" frequency="22000.0"/>
+    <effect type="reverb" wetLevel="0.5"/>
+    <effect type="gain" level="-6" />
+    <effect type="wave_shaper" drive="0.5" shape="0.3" outputLevel="0.9"/>
+  </effects>
+</DecentSampler>
